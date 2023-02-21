@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:lend_buddy/collections/user.dart';
-import 'package:lend_buddy/main.dart';
 import 'package:lend_buddy/screens/home_screen.dart';
 import 'package:lend_buddy/screens/login_screen.dart';
 import 'package:lend_buddy/services/isar_helper.dart';
+
+//CODED BY PAUL
 
 class CreateAccountScreen extends StatefulWidget {
   CreateAccountScreen({super.key});
@@ -17,7 +16,6 @@ class CreateAccountScreen extends StatefulWidget {
 }
 
 class _CreateAccountScreenState extends State<CreateAccountScreen> {
-  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   final RegExp emailRegex = RegExp(r"[a-z0-9\._-]+@[a-z0-9\._-]+\.[a-z]+");
 
   int _idUser = 0;

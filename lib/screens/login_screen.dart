@@ -4,6 +4,8 @@ import 'package:lend_buddy/services/isar_helper.dart';
 import 'package:lend_buddy/screens/createaccount_screen.dart';
 import 'package:lend_buddy/screens/home_screen.dart';
 
+//CODED BY PAUL
+
 class LoginScreen extends StatefulWidget {
   LoginScreen({super.key});
 

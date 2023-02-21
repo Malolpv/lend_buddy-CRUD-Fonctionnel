@@ -7,6 +7,8 @@ import 'package:lend_buddy/widgets/custom_app_bar.dart';
 import 'package:lend_buddy/widgets/navdrawer.dart';
 import 'package:lend_buddy/widgets/lended_items_list.dart';
 
+//CODED BY MALO
+
 class HomeScreen extends StatelessWidget {
   final db = IsarHelper();
   final int userId;

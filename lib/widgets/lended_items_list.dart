@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:lend_buddy/collections/lend.dart';
 import 'package:lend_buddy/services/isar_helper.dart';
 
+//CODED BY MALO
+
 class LendedItemsList extends StatefulWidget {
   final IsarHelper dataSource;
   final int userId;

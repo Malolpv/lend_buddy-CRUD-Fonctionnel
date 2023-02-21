@@ -4,6 +4,8 @@ import 'package:lend_buddy/collections/lend.dart';
 import 'package:lend_buddy/collections/user.dart';
 import 'package:lend_buddy/services/isar_helper.dart';
 
+//CODED BY MALO
+
 class NewLend extends StatefulWidget {
   @override
   State<NewLend> createState() => _NewLendState();

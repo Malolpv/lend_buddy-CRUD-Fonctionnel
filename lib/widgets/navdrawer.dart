@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:lend_buddy/main.dart';
 import 'package:lend_buddy/screens/home_screen.dart';
 
+//CODED BY MALO AND PAUL
+
 class NavDrawer extends StatelessWidget {
   final int idUser;
 

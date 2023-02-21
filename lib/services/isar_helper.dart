@@ -2,7 +2,8 @@ import 'package:isar/isar.dart';
 import 'package:lend_buddy/collections/item.dart';
 import 'package:lend_buddy/collections/lend.dart';
 import 'package:lend_buddy/collections/user.dart';
-import 'package:path/path.dart';
+
+//CODED BY MALO
 
 class IsarHelper {
   late Future<Isar> db;
