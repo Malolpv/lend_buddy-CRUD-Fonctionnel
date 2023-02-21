@@ -16,9 +16,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Lend Buddy',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.blueGrey,
       ),
-      // home: HomeScreen(userId: idUser,)
       home: const MyHomePage(title: 'Lend Buddy'),
     );
   }
