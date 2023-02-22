@@ -4,7 +4,7 @@ import 'package:lend_buddy/collections/user.dart';
 part 'item.g.dart';
 
 @collection
-class Item {
+class Item { 
   //attributes
   Id id = Isar.autoIncrement;
 
